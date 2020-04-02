@@ -151,7 +151,7 @@ list-style: none;
 padding: 0 40px;
 }
 ul li {
-
+  line-height: 2rem;;
 }
 
 
@@ -217,16 +217,23 @@ ul li {
      overflow: hidden;
    }
 
+   aside .categories {
+     margin-bottom: 25px;
+     padding-left: 30px;
+   }
+
    /* GALLERY */
    article {
+     width: 100%;
      background: #000;
-     max-width: 100%;
-     margin-left: 200px;
      margin-top: 75px;
-     /* display: flex;
-     flex-direction: row wrap;
-     justify-content: top; */
    }
+
+    #myMosaic {
+     width: calc(100% - 200px);
+     margin-left: 200px;
+   }
+
 
 
 
