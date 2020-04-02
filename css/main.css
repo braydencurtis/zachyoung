@@ -98,6 +98,126 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* UNIVERSAL STYLES */
+body {
+  color: #fff;
+  background: red;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+
+}
+a:hover {
+
+}
+
+h1 {
+  margin: 0;
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5{
+
+}
+h6 {
+
+}
+ul {
+list-style: none;
+padding: 0 40px;
+}
+ul li {
+
+}
+
+
+
+
+/********* HOME PAGE *********/
+
+/* HEADER */
+
+   header {
+    background: #000;
+    height: 75px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+   }
+
+   header h1 {
+     margin-left: 35px;
+   }
+
+
+   /* MAIN */
+   main {
+     width: 100%;
+     height: 100%;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     flex-direction: row;
+     background: green;
+   }
+
+   /* SIDE BAR */
+   aside {
+     background: #000;
+     width: 200px;
+     padding: 25px 0;
+     margin: 0;
+     margin-top: 40px;
+     height: 2000px;
+     position: fixed;
+     overflow: hidden;
+   }
+
+   /* GALLERY */
+   article {
+     background: blue;
+     width: 100%;
+     margin-left: 200px;
+     margin-top: 75px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
