@@ -15,9 +15,17 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mosaic.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mosaic.css" />
+
 </head>
 
 <body>
+  <script>
+    document.body.className = 'fade';
+  </script>
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -25,7 +33,7 @@
   <!-- Add your site or application content here -->
   <header>
     <div class="container">
-      <h1>Zach <span>Young</span></h1>
+      <h1>Zach <span>Young</span> Photography</h1>
     </div>
   </header>
   <main>
@@ -47,20 +55,50 @@
       </nav>
     </aside>
     <article>
-      <img src="img/zach1.jpg">
-      <img src="img/zach2.jpg">
+      <div id="myMosaic">
+        <img src="img/zach1.jpg" data-aspect-ratio="0.67">
+        <img src="img/zach2.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach3.jpg" data-aspect-ratio="0.67">
+        <img src="img/zach4.jpg" data-aspect-ratio="1.5" >
+        <img src="img/zach5.jpg"  data-aspect-ratio="1.5">
+        <img src="img/zach6.jpg" data-aspect-ratio="0.8">
+        <img src="img/zach7.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach8.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach9.jpg" data-aspect-ratio="0.67">
+        <img src="img/zach10.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach11.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach12.jpg" data-aspect-ratio="2.39">
+        <img src="img/zach13.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach14.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach15.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach16.jpg" data-aspect-ratio="1.25">
+        <img src="img/zach17.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach18.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach19.jpg" data-aspect-ratio="1.5">
+        <img src="img/zach20.jpg" data-aspect-ratio="0.8">
+      </div>
     </article>
   </main>
   <footer></footer>
 
+  <script>
+    $('#myMosaic').Mosaic({
+      innerGap: 10,
+      showTailWhenNotEnoughItemsForEvenOneRow: true
+    });
+  </script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(e) {
+    document.body.className = '';
+  });
+</script>
 
 
 
 
-
-
-
-
+  
 
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
