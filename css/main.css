@@ -183,7 +183,7 @@ img {
    header h1 {
      font-family: 'Sen', sans-serif;
      font-weight: 800;
-     color: #858585
+     color: #999;
 
    }
    header h1 .last-name {
@@ -208,7 +208,6 @@ img {
      margin: 0;
      display: flex;
      flex-direction: row;
-     background: green;
    }
 
    /* SIDE BAR */
