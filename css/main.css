@@ -157,6 +157,7 @@ ul li {
 }
 img {
   width: 100%;
+  height: auto;
 }
 
 
@@ -245,8 +246,7 @@ img {
 
    article a:hover {
      opacity: 0.6;
-     
-   }
+       }
 
    /* GALLERY CATEGORIES */
    .portrait {
