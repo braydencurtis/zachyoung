@@ -121,10 +121,12 @@ body.fade {
 }
 
 a {
-
+  color: #fff;
+  text-decoration: none;
+  transition: all, 0.5s;
 }
 a:hover {
-
+  color: #ff3d3d;
 }
 
 h1 {
@@ -233,6 +235,12 @@ ul li {
      width: calc(100% - 200px);
      margin-left: 200px;
    }
+
+   /* GALLERY CATEGORIES */
+   .portrait {
+    display: none;
+   }
+
 
 
 
