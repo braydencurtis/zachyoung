@@ -239,6 +239,15 @@ img {
      margin-left: 200px;
    }
 
+   article a {
+    transition: all 0.5s;
+   }
+
+   article a:hover {
+     opacity: 0.6;
+     
+   }
+
    /* GALLERY CATEGORIES */
    .portrait {
     display: none;
