@@ -13,10 +13,14 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="css/lightbox.css" rel="stylesheet" />
+
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Quicksand&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.mosaic.js"></script>
   <link rel="stylesheet" type="text/css" href="css/jquery.mosaic.css" />
+  <script src="js/lightbox.js"></script>
+
   
 </head>
 
@@ -54,9 +58,9 @@
     </aside>
     <article>
       <div id="myMosaic">
-        <img src="img/zach1.jpg" data-aspect-ratio="0.67" class="portrait">
-        <img src="img/zach2.jpg" data-aspect-ratio="1.5">
-        <img src="img/zach3.jpg" data-aspect-ratio="0.67">
+        <a href="img/zach1.jpg" data-lightbox="gallery"  data-aspect-ratio="0.67"><img src="img/zach1.jpg"></a>
+        <a href="img/zach2.jpg" data-aspect-ratio="1.5" data-lightbox="gallery"><img src="img/zach2.jpg"></a>
+        <a href="img/zach3.jpg" data-aspect-ratio="0.67" data-lightbox="gallery"><img src="img/zach3.jpg"></a>
         <img src="img/zach4.jpg" data-aspect-ratio="1.5" >
         <img src="img/zach5.jpg"  data-aspect-ratio="1.5">
         <img src="img/zach6.jpg" data-aspect-ratio="0.8">
