@@ -125,7 +125,7 @@ a {
   text-decoration: none;
   transition: all, 0.5s;
 }
-a:hover {
+a:hover, .selected {
   color: #ff3d3d;
 }
 
@@ -251,6 +251,11 @@ img {
    .portrait {
     display: none;
    }
+
+   .apple {
+     display: none;
+   }
+
 
 
 
