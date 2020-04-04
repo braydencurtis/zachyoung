@@ -238,6 +238,10 @@ img {
      width: calc(100% - 200px);
      margin-left: 200px;
    }
+   #content {
+    width: calc(100% - 200px);
+    margin-left: 200px;
+  }
 
    article a {
     transition: all 0.5s;
