@@ -17,6 +17,8 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Quicksand&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
+
   <script type="text/javascript" src="js/jquery.mosaic.js"></script>
   <link rel="stylesheet" type="text/css" href="css/jquery.mosaic.css" />
   <script src="js/lightbox.js"></script>
@@ -35,29 +37,31 @@
   <!-- Add your site or application content here -->
   <header>
     <div class="container">
-      <h1>Zach<span class="last-name">Young</span><span class="white"> | </span><span class="header-photography">Photography</span></h1>
+      
+        <h1>Zach<span class="last-name">Young</span><span class="white"> | </span><span class="header-photography">Photography</span></h1>
+      
     </div>
   </header>
   <main>
     <aside>
       <nav>
         <ul>
-          <li>Everything</li>
+          <li><a href="index.html">Everything</a></li>
           <ul class="categories">
-            <li><a href="#">Portrait</a></li>
-            <li>Personal</li>
-            <li>Food</li>
-            <li>Fashion</li>
+            <li><a href="portrait.html">Portrait</a></li>
+            <li><a href="personal.html">Personal</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="fashion.html">Fashion</a></li>
           </ul>
-          <li>Bio</li>
-          <li>Contact</li>
-          <li>Downloads</li>
-          <li>Blog</li>
+          <li><a href="bio.html">Bio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="downloads.html">Downloads</a></li>
+          <li><a href="blog.html">Blog</a></li>
         </ul>
       </nav>
     </aside>
     <article>
-      <div id="myMosaic">
+      <div id="myMosaic" class="everything">
         <div data-aspect-ratio="0.67"><a href="img/zach1.jpg" data-lightbox="gallery"><img src="img/zach1.jpg"></a></div>
         <div data-aspect-ratio="1.5"><a href="img/zach2.jpg" data-lightbox="gallery"><img src="img/zach2.jpg"></a></div>
         <div data-aspect-ratio="0.67"><a href="img/zach3.jpg" data-lightbox="gallery"><img src="img/zach3.jpg"></a></div>
@@ -102,6 +106,9 @@
         <div data-aspect-ratio="0.8"><a href="img/zach42.jpg" data-lightbox="gallery"><img src="img/zach42.jpg"></a></div>
 
 
+      </div>
+      <div id="myMosaic" class="apple">
+        <img src="https://www.vaporfi.com/media/catalog/product/cache/9/thumbnail/600x600/9df78eab33525d08d6e5fb8d27136e95/v/z/vz_eliquid_juicy_red_apple.jpg">
       </div>
     </article>
   </main>
