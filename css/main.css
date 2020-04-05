@@ -175,7 +175,7 @@ img {
     width: 100%;
     display: flex;
     direction: row wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     position: fixed;
     z-index: 10;
@@ -192,6 +192,7 @@ img {
    .hamburger {
     display: none !important;
   }
+  
 
    header h1 {
      font-family: 'Sen', sans-serif;
@@ -204,7 +205,8 @@ img {
    .header-name {
      width: 100%;
      display: flex;
-     justify-content: center;
+     justify-content: left;
+     padding-left: 35px;
    }
    header h1 .last-name {
      color: #ff3d3d;
@@ -336,7 +338,7 @@ textarea {
   color: #fff;
 }
 
-button {
+form button {
   width: 100%;
   padding: 15px;
   background: #444;
@@ -346,11 +348,11 @@ button {
   transition: all 0.5s;
 }
 
-button:hover {
+form button:hover {
   background: #ff3d3d;
 }
 
-button:active {
+form button:active {
   background: #990000;
 
 }
@@ -493,10 +495,16 @@ button:active {
     display: flex !important;
     justify-content: center;
   }
+  .hamburger-inner {
+    background-color: white;
+  color: white; 
+ }
+  
   .header-name {
     width: 85%;
     display: flex;
     justify-content: left;
+    padding: 0;
   }
   
   
@@ -505,7 +513,8 @@ button:active {
   aside {
     width: 100%;
     background: #111;
-    right: 100%;
+    /* right: 100%; */
+    transition: all 0.5s;
 }
   #myMosaic, #content {
     width: 100%;
