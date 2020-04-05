@@ -241,6 +241,11 @@ img {
    #content {
     width: calc(100% - 200px);
     margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row wrap;
+    max-width: 1000px;
+    min-width: 700px;
   }
 
    article a {
@@ -261,7 +266,16 @@ img {
    }
 
 
+/* BIO */
+.bio-text {
+  width: 60%;
+}
 
+.bio-photo {
+  width: 40%;
+  max-width: 400px;
+  padding: 25px;
+}
 
 
 
