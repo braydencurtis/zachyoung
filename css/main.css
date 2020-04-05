@@ -478,6 +478,68 @@ form button:active {
   /* Style adjustments for high resolution devices */
 }
 
+@media only screen and (max-width: 877px) {
+  #content {
+    display: flex;
+    justify-content: left;
+    min-width: 0px;
+
+  }
+  .mobile-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: left;
+  }
+
+/* BIO - Mobile Stylings */
+.bio-text {
+  width: 475px;
+}
+.bio-text h3 {
+}
+.bio-text p {
+}
+.bio-photo {
+  width: 300px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Contact - Smaller Styling */
+.contact-container {
+  width: 80%;
+  max-width: 500px;
+  
+}
+form {
+  width: 100%;
+}
+
+.sendee {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  
+}
+
+input {
+  width: 100%;
+  padding: 15px 0 15px 15px;
+  margin-bottom: 25px;
+}
+.message {
+  width: calc(100% - 15px);
+  padding: 0;
+}
+
+form button {
+  width: calc(100% + 20px);
+}
+
+
+}
+
 @media only screen and (max-width:688px) {
   header h1, header h1 .header-photography {
     font-size: 2.5rem;
@@ -524,9 +586,91 @@ form button:active {
 
   #myMosaic, #content {
     width: 100%;
+    min-width: 0px;
     margin: 0;
   }
+  #content {
+    display: flex;
+  }
+  .mobile-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+/* BIO - Mobile Stylings */
+.bio-text {
+  width: 100%;
 }
+.bio-text h3 {
+  margin-left:  50px;
+}
+.bio-text p {
+  padding: 0 50px;
+}
+.bio-photo {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Contact - Mobile Styling */
+.contact-container {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sendee {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 90%;
+}
+.message {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+textarea {
+  width: 86%;
+}
+
+form button {
+  width: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
 /* ==========================================================================
    Print styles.
