@@ -277,6 +277,60 @@ img {
   padding: 25px;
 }
 
+/* CONTACT */
+.contact-container {
+  max-width: 800px;
+}
+
+input, textarea {
+  background: #111;
+  border: solid 3px #555;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.sendee {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.message {
+  width: calc(100% - 35px);
+}
+input {
+  width: 25%;
+}
+
+textarea {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background: #444;
+  color: white;
+  font-weight: bold;
+  border: solid 3px #fff;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background: #ff3d3d;
+}
+
+button:active {
+  background: #990000;
+
+}
 
 
 
