@@ -456,6 +456,26 @@ button:active {
   /* Style adjustments for high resolution devices */
 }
 
+@media only screen and (max-width:688px) {
+  header h1, header h1 .header-photography {
+    font-size: 1.5rem;
+    text-align: right;
+  }
+  
+  
+
+
+  aside {
+    width: 100%;
+    background: #111;
+    right: 100%;
+}
+  #myMosaic, #content {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
