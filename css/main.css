@@ -496,7 +496,7 @@ button:active {
   .header-name {
     width: 85%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
   
   
