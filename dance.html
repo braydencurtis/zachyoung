@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link href="css/lightbox.css" rel="stylesheet" />
+  <link href="css/hamburgers.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Quicksand&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -37,13 +38,22 @@
   <!-- Add your site or application content here -->
   <header>
     <div class="container">
-      
+      <!-- <div class="hamburger">
+        <a href="#"><i class="fas fa-bars"></i></a>
+      </div> -->
+      <button id="hamburger" class="hamburger hamburger--squeeze" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div class="header-name"> 
         <h1>Zach<span class="last-name">Young</span><span class="white"> | </span><span class="header-photography">Photography</span></h1>
+      </div>
       
     </div>
   </header>
   <main>
-    <aside>
+    <aside id="nav" class="closed-nav">
       <nav>
         <ul>
           <li><a href="index.html">Everything</a></li>
