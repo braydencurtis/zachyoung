@@ -242,7 +242,7 @@ img {
     width: calc(100% - 200px);
     margin-left: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: row wrap;
     max-width: 1000px;
     min-width: 700px;
@@ -275,6 +275,7 @@ img {
   width: 40%;
   max-width: 400px;
   padding: 25px;
+  margin-top: 40px;
 }
 
 /* CONTACT */
@@ -287,6 +288,7 @@ input, textarea {
   border: solid 3px #555;
   border-radius: 3px;
   padding: 15px;
+  color: #fff;
 }
 
 .sendee {
@@ -302,6 +304,7 @@ input, textarea {
 }
 input {
   width: 25%;
+  
 }
 
 textarea {
