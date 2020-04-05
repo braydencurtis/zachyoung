@@ -190,7 +190,7 @@ img {
    }
 
    .hamburger {
-    display: none;
+    display: none !important;
   }
 
    header h1 {
@@ -199,6 +199,12 @@ img {
      color: #999;
      display: inline-block;
 
+   }
+
+   .header-name {
+     width: 100%;
+     display: flex;
+     justify-content: center;
    }
    header h1 .last-name {
      color: #ff3d3d;
@@ -472,16 +478,19 @@ button:active {
 
 @media only screen and (max-width:688px) {
   header h1, header h1 .header-photography {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     align-items: center;
+  }
+
+  .white, .header-photography {
+    display: none;
   }
 
 
   .hamburger {
-    display: inline-block;
     width: 15%;
     font-size: 2rem;
-    display: flex;
+    display: flex !important;
     justify-content: center;
   }
   .header-name {
