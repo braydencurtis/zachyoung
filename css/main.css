@@ -578,14 +578,27 @@ form button {
   }
   
   
-
+/* MOBILE NAV */
 
   aside {
     width: 100%;
     background: #111;
     transition: all 0.5s;
     right: 0%;
+    display: flex;
+    justify-content: center;
 }
+  ul {
+    list-style: none;
+    padding: 0 40px;
+    font-size: 3rem;
+}
+  ul li {
+    line-height: 5rem;
+}
+
+
+
 
   .closed-nav {
     right: 100%;
