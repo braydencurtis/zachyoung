@@ -594,7 +594,7 @@ form button {
     justify-content: center;
 }
 
-aside .categories {
+/* aside .categories {
   margin-bottom: 0;
   padding-left: 0;
 }
@@ -606,13 +606,12 @@ aside .categories {
 }
   ul li {
     line-height: 3rem;
-    width: 80%;
-    border: solid 5px white;
+    width: 80%;    
     margin: 10px 0;
     padding: 10px;
     text-align: center;
 
-}
+} */
 
 
 
